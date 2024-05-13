@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <h1 class="text-4xl font-bold uppercase pb-10 pt-3 text-center sm:text-sm">
+      start should change the background color every second
+    </h1>
+    <div class="flex items-center justify-center">
+      <button id="start" class="bg-[#32012F] text-white px-3 py-2 rounded-md">
+        Start
+      </button>
+      <button id="stop" class="bg-[#32012F] text-white px-3 py-2 rounded-md">
+        Stop
+      </button>
+    </div>
+    <script src="index2.js"></script>
+  </body>
+</html>
